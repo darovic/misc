@@ -1,0 +1,15 @@
+# ignore almost everything
+*/
+.*
+
+# don't ignore gitignore
+!.gitignore
+
+# don't ignore Utilities/bin
+!**/Utilities/
+**/Utilities/*
+!**/Utilities/bin/
+
+# various windows files
+*.dat*
+*.ini*
